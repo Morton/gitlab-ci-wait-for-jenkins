@@ -13,4 +13,3 @@ then
 fi
 
 exit -1
-https://jenkins01.cds.testo/job/data-evaluation/job/master
