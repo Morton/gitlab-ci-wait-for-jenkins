@@ -1,6 +1,6 @@
 #!/bin/sh
 
-JOB_URL = $JENKINS_HOST/job/$(echo $CI_PROJECT_NAME | sed 's/\//%252F/g')/job/$(echo $CI_COMMIT_REF_NAME | sed 's/\//%252F/g')
+JOB_URL=$JENKINS_HOST/job/$(echo $CI_PROJECT_NAME | sed 's/\//%252F/g')/job/$(echo $CI_COMMIT_REF_NAME | sed 's/\//%252F/g')
 
 echo Waiting for Jenkin\'s job $JOB_URL
 
